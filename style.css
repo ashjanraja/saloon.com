@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+ .clr {
+     clear: both;
+}
+ .container {
+     width: 1200px;
+     margin: auto;
+}
+ body {
+     font-family: "lato";
+     background-color: rgb(243, 250, 214);
+}
+ #header {
+     position: fixed;
+     top: 0;
+     width: 100%;
+     min-height: 75px;
+     padding: 0px 20px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: rgb(243, 250, 214);
+}
+ @media (max-width: 600px) {
+     #header {
+         flex-wrap: wrap;
+    }
+}
+ .top {
+     margin: 0px;
+     overflow: hidden;
+}
+ @media (max-width: 600px) {
+     .top {
+         margin-top: 15px;
+         width: 100%;
+         position: relative;
+    }
+}
+ .header-img {
+     float: left;
+     width: 30%;
+}
+ .header-img img {
+     width: 50%;
+     height: 100%;
+     max-width: 300px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     margin-left: 20px;
+}
+ @media (max-width: 600px) {
+     .header-img>img {
+         margin: auto;
+    }
+}
+ #nav-bar {
+     padding: 90px 0 0 220px;
+     float: left;
+     width: 60%;
+}
+ @media (max-width: 600px) {
+     #nav-bar {
+         margin-top: 10px;
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+         padding: 0 50px;
+    }
+     #nav-bar li {
+         padding-bottom: 5px;
+    }
+}
+ @media (max-width: 600px) {
+     #nav-bar>ul {
+         flex-direction: column;
+    }
+}
+ ul {
+     list-style: none;
+     overflow: hidden;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+}
+ li {
+     float: left;
+     padding: 0 20px;
+}
+ a {
+     color: #631e5a;
+     text-decoration: none;
+     font-size: 20px;
+}
+ .hair {
+     margin-top: 200px;
+     margin-bottom: 50px;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+ @media (max-width: 600px) {
+     .hair {
+         margin-top: 177px;
+    }
+}
+ .hair h1 {
+     color: #631e5a;
+     padding: 10px 0px 20px 0px;
+}
+ .hair input[type='email'] {
+     max-width: 275px;
+     width: 100%;
+     padding: 5px;
+}
+ .hair input[type='submit'] {
+     max-width: 150px;
+     width: 100%;
+     height: 30px;
+     margin: 15px 0;
+     border: 0;
+     color: #fff;
+     font-size: 20px;
+     background-color: #631e5a;
+}
+ .hair input[type='submit']:hover {
+     background-color: rgb(165, 18, 121);
+     transition: 1s;
+     font-size: 25px;
+}
+ .Why-Choose-Us {
+     margin: 90px 0px 30px 277px;
+     text-align: left;
+     overflow: hidden;
+}
+ .Why-Choose-Us h2 {
+     padding-bottom: 26px;
+     color: #631e5a;
+     font-size: 30px;
+}
+ .Why-Choose-Us h3 {
+     padding-bottom: 6px;
+     padding-top: 5px;
+     font-size: 20px;
+}
+ .Why-Choose-Us p {
+     font-size: 16px;
+}
+ .Why-Choose-Us .icon {
+     float: left;
+     width: 5%;
+     font-size: 25px;
+     color: #631e5a;
+     display: flex;
+}
+ .desc {
+     width: 60%;
+     float: left;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+ .how-it-works {
+     margin: 90px 0px 50px 0px;
+     overflow: hidden;
+}
+ .how-it-works h2 {
+     font-size: 30px;
+     padding-bottom: 25px;
+     color: #631e5a;
+}
+ .how-it-works .Cut {
+     float: left;
+     width: 44%;
+}
+ .how-it-works .Cut #video {
+     frameborder="0" 
+}
+ .how-it-works .content {
+     float: left;
+     width: 50%;
+     margin-top: 40px;
+}
+ .Contact {
+     margin: 120px 80px 60px 70px;
+     text-align: center;
+}
+ .icons {
+     font-size: 25px;
+     color: #631e5a;
+}
+ .Contact h2 {
+     padding-bottom: 10px;
+}
